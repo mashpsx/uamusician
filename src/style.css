@@ -1,0 +1,104 @@
+body{
+background-color: #E2E0B6;
+}
+#menu
+{
+	margin-top:15px;
+}
+
+#menu ul
+{
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+#menu ul a
+{
+	display:block;
+	color:#8F8E79;
+	text-decoration:none;
+	font-weight:700;
+	font-size:12px;
+	line-height:32px;
+	padding:0 15px;
+	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+#menu ul li
+{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+#menu ul li.current-menu-item
+{
+	background:#C1BF97;
+}
+
+#menu ul li:hover
+{
+	background:#D6D4A9;
+}
+
+#menu ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#D6D4A9;
+	padding:0
+}
+
+#menuul ul li
+{
+	float:none;
+	width:200px
+}
+
+#menu ul ul a
+{
+	line-height:120%;
+	padding:10px 15px
+}
+
+#menu ul ul ul
+{
+	top:0;
+	left:100%
+}
+
+#menu ul li:hover > ul
+{
+	display:block
+}
+.text{
+text-align: center;
+}
+.first{
+font-family: 'Shantell Sans', cursive;
+}
+img{
+border-radius: 8px;
+float: left;
+}
+.second{
+text-align: left;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Caveat', cursive;
+font-family: 'Gloock', serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Labrada', serif;
+font-family: 'Merriweather', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Phudu', cursive;
+font-family: 'Roboto Slab', serif;
+font-family: 'Shantell Sans', cursive;
+font-family: 'Work Sans', sans-serif;
+}
